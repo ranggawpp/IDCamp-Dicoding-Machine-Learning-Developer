@@ -22,7 +22,7 @@ Modul pelatihan online IDCamp 2023 dikembangkan oleh Dicoding, yang merupakan Go
 ## Submission
 
 - [Belajar Machine Learning untuk Pemula →](https://github.com/ranggawpp/Machine-Learning-Dicoding/tree/995b88814b5e9196c974a9c83208e4658e1ed006/Kelas%20Pemula)
-- [Belajar Pengembangan Machine Learning →](Kelas Menengah)
+- [Belajar Pengembangan Machine Learning →](https://github.com/ranggawpp/IDCamp-Dicoding-Machine-Learning-Developer/tree/07a50c8a5428568d081981bffa5fe017f862e4a3/Kelas%20Menengah)
 
 ## Result
 
