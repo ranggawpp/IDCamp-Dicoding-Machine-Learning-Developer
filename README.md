@@ -31,7 +31,7 @@ Modul pelatihan online IDCamp 2023 dikembangkan oleh Dicoding, yang merupakan Go
 |  1   |  Belajar Dasar Visualisasi Data         | 25-09-2023 | [→](https://www.dicoding.com/certificates/53XE4O7QKZRN) |
 |  2   |  Memulai Pemrograman Dengan Python      | 27-09-2023 | [→](https://www.dicoding.com/certificates/GRX52OR42X0M) |
 |  3   |  Belajar Machine Learning untuk Pemula  | 02-10-2023 | [→](https://www.dicoding.com/certificates/81P27467NZOY) |
-|  4   |  Belajar Pengembangan Machine Learning  |  on-going  | [→]() |
+|  4   |  Belajar Pengembangan Machine Learning  | 13-01-2024 | [→](https://www.dicoding.com/certificates/0LZ026W4RX65) |
 
 ## Thanks :pray:
 
