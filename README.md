@@ -1,6 +1,6 @@
 # IDCamp Dicoding Machine Learning Developer
 
-Learning Path **Mechine Learning Developer** ini didapatkan dari program beasiswa [IDCamp Indosat Ooredoo 2023](https://idcamp.ioh.co.id/).
+Learning Path **Machine Learning Developer** ini didapatkan dari program beasiswa [IDCamp Indosat Ooredoo 2023](https://idcamp.ioh.co.id/).
 
 IDCamp adalah sebuah program beasiswa yang diselenggarakan oleh Indosat Ooredoo Hutchison dengan tujuan untuk mencetak developer/programmer muda Indonesia yang siap bersaing di dunia ekonomi digital.
 
