@@ -1,14 +1,23 @@
-# Laporan Proyek Machine Learning - Nama Anda
+# Laporan Proyek Machine Learning - Rangga Wibisana Putra Pamungkas
 
 ## Domain Proyek
+### Latar Belakang
+Di dunia digital yang serba cepat saat ini, di mana pekerjaan jarak jauh dan kolaborasi virtual telah menjadi norma, kebutuhan akan perangkat kerja yang efisien dan andal menjadi lebih penting dari sebelumnya. Di antara alat-alat ini, laptop menonjol sebagai perangkat yang sangat diperlukan yang memfasilitasi produktivitas, kreativitas, dan konektivitas. Namun, dengan banyaknya pilihan laptop yang tersedia di pasaran, memilih laptop yang tepat yang menyeimbangkan antara performa, fitur, dan biaya bisa menjadi hal yang menakutkan. Tantangan ini telah mendorong munculnya proyek-proyek yang bertujuan untuk memprediksi harga laptop, dengan memanfaatkan algoritme pembelajaran mesin untuk membantu konsumen dalam membuat keputusan pembelian yang tepat.
 
+Penelitian telah menunjukkan bahwa harga laptop dapat bervariasi secara signifikan berdasarkan berbagai faktor seperti merek, spesifikasi, dan tren pasar. Sebagai contoh, sebuah penelitian yang diterbitkan dalam Journal of Computer Science and Technology menemukan bahwa strategi penetapan harga yang digunakan oleh produsen laptop dipengaruhi oleh faktor-faktor seperti reputasi merek, inovasi teknologi, dan permintaan konsumen. Selain itu, penelitian yang dilakukan oleh perusahaan analisis pasar seperti Gartner dan IDC menunjukkan bahwa pasar laptop bersifat dinamis dan kompetitif, dengan harga yang berfluktuasi sebagai respons terhadap perubahan dinamika rantai pasokan, biaya komponen, dan preferensi konsumen.
+
+Mengingat kompleksitas dan volatilitas pasar laptop, memprediksi harga laptop secara akurat telah menjadi upaya yang menantang namun penting. Dengan memanfaatkan kekuatan teknik pembelajaran mesin seperti analisis regresi dan jaringan saraf, para peneliti dan ilmuwan data dapat menganalisis data harga historis, tren pasar, dan fitur produk untuk mengembangkan model prediktif. Model-model ini tidak hanya membantu konsumen dalam membuat keputusan pembelian yang tepat, tetapi juga membantu peritel dan produsen dalam strategi penetapan harga dan manajemen inventaris. Oleh karena itu, proyek prediksi harga laptop ini menjawab kebutuhan penting akan alat kerja yang dapat meningkatkan produktivitas dengan merampingkan proses pengambilan keputusan dalam memilih laptop yang hemat biaya dan efisien.
+
+Banyak orang yang membutuhkan perangkat kerja yang dapat meningkatkan produktivitas mereka, salah satu perangkat ini adalah laptop. Dalam situasi pasar saat ini, mereka tidak membeli laptop hanya berdasarkan harga saja. Mereka perlu memiliki laptop dengan spesifikasi yang sesuai dengan kebutuhannya untuk mendorong produktivitas. 
+
+Memilih laptop dengan fitur yang tepat dengan harga yang pantas bisa menjadi hal yang melelahkan. Untuk mencegah pembelian laptop dengan harga yang terlalu mahal, diperlukan suatu cara untuk memprediksi harga laptop berdasarkan spesifikasi yang ditentukan. Dengan memahami dampak dari berbagai konfigurasi (CPU, RAM, penyimpanan, dll.) terhadap harga, pengguna dapat membuat pilihan yang lebih tepat sasaran yang sesuai dengan anggaran dan kebutuhan mereka.
 Pada bagian ini, kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 - Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
 - Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
   
-  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
+  Referensi: [A. D. Siburian, “Laptop Price Prediction with Machine Learning Using Regression Algorithm”, JUSIKOM PRIMA, vol. 6, no. 1, pp. 87-91, Sep. 2022.](https://doi.org/10.34012/jurnalsisteminformasidanilmukomputer.v6i1.2850)
 
 ## Business Understanding
 
