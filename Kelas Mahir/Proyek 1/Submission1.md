@@ -14,32 +14,22 @@ Tidak seperti emas yang harga jual dan belinya mengacu pada harga perdagangan em
 
 ### Problem Statements
 
-Menjelaskan pernyataan masalah latar belakang:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+Berdasarkan kondisi yang telah diuraikan sebelumnya, diperlukan pengembangan sebuah sistem prediksi harga laptop untuk menjawab permasalahan berikut:
+- Dari serangkaian fitur yang ada, fitur apa yang paling berpengaruh terhadap harga diamonds?
+- Berapa harga pasar diamonds dengan karakteristik atau fitur tertentu?  
 
 ### Goals
+Untuk  menjawab pertanyaan tersebut, akan dikembangkan sebuah predictive modelling dengan tujuan atau goals sebagai berikut:
+- Mengetahui fitur yang paling berkorelasi dengan harga laptop.
+- Membuat model machine learning yang dapat memprediksi harga laptop seakurat mungkin berdasarkan fitur-fitur yang ada.
 
-Menjelaskan tujuan dari pernyataan masalah:
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
-- Jawaban pernyataan masalah n
-
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
-
-    ### Solution statements
- Untuk mencapai tujuan yaitu mendapatkan model terbaik untuk memprediksi harga,  Pengembangan model akan menggunakan beberapa algoritma machine learning yaitu K-Nearest Neighbor, Random Forest, dan Boosting Algorithm. Dari ketiga model ini, akan dipilih satu model yang memiliki nilai kesalahan prediksi terkecil. Dengan kata lain, kita akan membuat model seakurat mungkin, yaitu model dengan nilai kesalahan sekecil mungkin.
+### Solution statements
+ Untuk mencapai goals diatas yaitu mendapatkan model terbaik untuk memprediksi harga, pengembangan model akan menggunakan beberapa algoritma machine learning yaitu K-Nearest Neighbor, Random Forest, AdaBoost, serta Linear Regression Algorithm. Dari keempat model ini, akan dipilih satu model yang memiliki nilai kesalahan prediksi terkecil. Dengan kata lain, kita akan membuat model seakurat mungkin, yaitu model dengan nilai kesalahan sekecil mungkin.
 
 ## Data Understanding
 Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset yang akan kita gunakan pada projek kali ini adalah Laptop Price Dataset. Dataset ini merupakan dataset sintetis yang dibuat untuk mensimulasikan fitur-fitur yang umumnya terkait dengan harga laptop. Dataset ini mencakup fitur-fitur seperti merek, kecepatan prosesor, ukuran RAM, kapasitas penyimpanan, ukuran layar, dan berat. Dataset ini dapat diunduh melalui [Kaggle | Laptop Price Prediction](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
 
-Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
-
-### Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
+### Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 - Brand             : Represents the laptop brand, with options including Dell, HP, Lenovo, Asus, and Acer.
 - Processor_Speed   : Indicates the speed of the laptop's processor, generated uniformly between 1.5 and 4.0 GHz.
 - RAM_Size          : Represents the random selection of RAM sizes, including 4GB, 8GB, 16GB, and 32GB.
