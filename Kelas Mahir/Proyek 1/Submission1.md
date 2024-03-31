@@ -2,7 +2,7 @@
 
 ## Domain Proyek
 ### Latar Belakang
-Di dunia digital yang serba cepat saat ini, di mana pekerjaan jarak jauh dan kolaborasi virtual telah menjadi norma, kebutuhan akan perangkat kerja yang efisien dan andal menjadi lebih penting dari sebelumnya. Di antara perangkat ini, laptop menajadi salah satu perangkat yang sangat diperlukan untuk memfasilitasi produktivitas, kreativitas, dan konektivitas. Namun, dengan banyaknya pilihan laptop yang tersedia di pasaran, memilih laptop dengan yang tepat berdasarkan fitur atau spesifikasinya bisa menjadi hal yang menyulitkan. Tantangan ini telah mendorong munculnya proyek-proyek yang bertujuan untuk memprediksi harga laptop, dengan memanfaatkan algoritme pembelajaran mesin untuk membantu konsumen dalam membuat keputusan pembelian yang tepat.
+Di dunia digital yang serba cepat saat ini, di mana pekerjaan jarak jauh dan kolaborasi virtual telah menjadi norma, kebutuhan akan perangkat kerja yang efisien dan andal menjadi lebih penting dari sebelumnya. Di antara perangkat ini, laptop menajadi salah satu perangkat yang sangat diperlukan untuk memfasilitasi produktivitas, kreativitas, dan konektivitas. Namun, dengan banyaknya pilihan laptop yang tersedia di pasaran, memilih laptop yang tepat berdasarkan fitur atau spesifikasinya bisa menjadi hal yang menyulitkan. Tantangan ini telah mendorong munculnya proyek-proyek yang bertujuan untuk memprediksi harga laptop, dengan memanfaatkan algoritme pembelajaran mesin untuk membantu konsumen dalam membuat keputusan pembelian yang tepat.
 
 Dengan memanfaatkan kekuatan teknik pembelajaran mesin seperti analisis regresi, kita dapat menganalisis data harga historis dan fitur produk untuk mengembangkan model prediktif. Model-model ini tidak hanya membantu konsumen dalam membuat keputusan pembelian yang tepat, tetapi juga membantu peritel dan produsen dalam strategi penetapan harga dan manajemen inventaris. Oleh karena itu, proyek prediksi harga laptop ini menjawab kebutuhan penting akan perangkat kerja yang dapat meningkatkan produktivitas dengan merampingkan proses pengambilan keputusan dalam memilih laptop dengan harga dan fitur yang tepat.
 
@@ -15,8 +15,8 @@ Tidak seperti emas yang harga jual dan belinya mengacu pada harga perdagangan em
 ### Problem Statements
 
 Berdasarkan kondisi yang telah diuraikan sebelumnya, diperlukan pengembangan sebuah sistem prediksi harga laptop untuk menjawab permasalahan berikut:
-- Dari serangkaian fitur yang ada, fitur apa yang paling berpengaruh terhadap harga diamonds?
-- Berapa harga pasar diamonds dengan karakteristik atau fitur tertentu?  
+- Dari serangkaian fitur yang ada, fitur apa yang paling berpengaruh terhadap harga laptop?
+- Berapa harga pasar laptop dengan karakteristik atau fitur tertentu?  
 
 ### Goals
 Untuk  menjawab pertanyaan tersebut, akan dikembangkan sebuah predictive modelling dengan tujuan atau goals sebagai berikut:
@@ -38,7 +38,12 @@ Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset y
 - Weight            : Indicates the weight of the laptop in kilograms, simulated uniformly between 2.0 and 5.0 kg.
 - Price             : Simulates the laptop prices based on a linear relationship with the features, including some added noise to mimic real-world variations.
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
+## Exploratory Data Analysis:
+### Missing Value dan Outliers
+
+### Univariate Analysis
+
+### Multivariate Analysis
 - Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
 
 ## Data Preparation
