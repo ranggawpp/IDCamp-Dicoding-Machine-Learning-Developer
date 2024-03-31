@@ -30,18 +30,22 @@ Untuk  menjawab pertanyaan tersebut, akan dikembangkan sebuah predictive modelli
 Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset yang akan kita gunakan pada projek kali ini adalah Laptop Price Dataset. Dataset ini merupakan dataset sintetis yang dibuat untuk mensimulasikan fitur-fitur yang umumnya terkait dengan harga laptop. Dataset ini mencakup fitur-fitur seperti merek, kecepatan prosesor, ukuran RAM, kapasitas penyimpanan, ukuran layar, dan berat. Dataset ini dapat diunduh melalui [Kaggle | Laptop Price Prediction](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
 
 ### Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
-- Brand             : Represents the laptop brand, with options including Dell, HP, Lenovo, Asus, and Acer.
-- Processor_Speed   : Indicates the speed of the laptop's processor, generated uniformly between 1.5 and 4.0 GHz.
-- RAM_Size          : Represents the random selection of RAM sizes, including 4GB, 8GB, 16GB, and 32GB.
-- Storage_Capacity  : Simulates different storage capacities with options of 256GB, 512GB, and 1000GB (1TB).
-- Screen_Size       : Represents the size of the laptop screen, randomly generated between 11 and 17 inches.
-- Weight            : Indicates the weight of the laptop in kilograms, simulated uniformly between 2.0 and 5.0 kg.
-- Price             : Simulates the laptop prices based on a linear relationship with the features, including some added noise to mimic real-world variations.
+- Brand             : Mewakili merek laptop, dengan pilihan termasuk Dell, HP, Lenovo, Asus, dan Acer.
+- Processor_Speed   : Menunjukkan kecepatan prosesor laptop, yang dihasilkan secara seragam antara 1,5 dan 4,0 GHz.
+- RAM_Size          : Mewakili pilihan ukuran RAM, termasuk 4GB, 8GB, 16GB, dan 32GB.
+- Storage_Capacity  : Mensimulasikan kapasitas penyimpanan yang berbeda dengan opsi 256GB, 512GB, dan 1000GB (1TB).
+- Screen_Size       : Mewakili ukuran layar laptop, dibuat secara acak antara 11 dan 17 inci.
+- Weight            : Menunjukkan berat laptop dalam kilogram, disimulasikan secara seragam antara 2,0 hingga 5,0 kg.
+- Price             : Mensimulasikan harga laptop berdasarkan hubungan linier dengan fitur-fiturnya, termasuk beberapa noise tambahan untuk meniru variasi dunia nyata.
 
 ## Exploratory Data Analysis:
 ### Missing Value dan Outliers
+Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.000 data dengan 7 fitur. Terdapat tiga jenis data dalam dataset ini, yaitu satu fitur bertipe objek, dua fitur bertipe integer (int64), dan empat fitur bertipe desimal atau float (float64). Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor.
+
+<img title="a title" alt="Alt text" src="/images/boo.svg">
 
 ### Univariate Analysis
+
 
 ### Multivariate Analysis
 - Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
