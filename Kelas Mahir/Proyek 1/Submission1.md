@@ -29,7 +29,9 @@ Untuk  menjawab pertanyaan tersebut, akan dikembangkan sebuah predictive modelli
 ## Data Understanding
 Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset yang akan kita gunakan pada projek kali ini adalah Laptop Price Dataset. Dataset ini merupakan dataset sintetis yang dibuat untuk mensimulasikan fitur-fitur yang umumnya terkait dengan harga laptop. Dataset ini mencakup fitur-fitur seperti merek, kecepatan prosesor, ukuran RAM, kapasitas penyimpanan, ukuran layar, dan berat. Dataset ini dapat diunduh melalui [Kaggle | Laptop Price Prediction](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
 
-### Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
+## Exploratory Data Analysis:
+### Deskripsi Variabel
+Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 - Brand             : Mewakili merek laptop, dengan pilihan termasuk Dell, HP, Lenovo, Asus, dan Acer.
 - Processor_Speed   : Menunjukkan kecepatan prosesor laptop, yang dihasilkan secara seragam antara 1,5 dan 4,0 GHz.
 - RAM_Size          : Mewakili pilihan ukuran RAM, termasuk 4GB, 8GB, 16GB, dan 32GB.
@@ -38,7 +40,6 @@ Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset y
 - Weight            : Menunjukkan berat laptop dalam kilogram, disimulasikan secara seragam antara 2,0 hingga 5,0 kg.
 - Price             : Mensimulasikan harga laptop berdasarkan hubungan linier dengan fitur-fiturnya, termasuk beberapa noise tambahan untuk meniru variasi dunia nyata.
 
-## Exploratory Data Analysis:
 ### Missing Value dan Outliers
 Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.000 data dengan 7 fitur. Terdapat tiga jenis data dalam dataset ini, yaitu satu fitur bertipe objek, dua fitur bertipe integer (int64), dan empat fitur bertipe desimal atau float (float64). Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor.
 
