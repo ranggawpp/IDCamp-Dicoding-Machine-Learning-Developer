@@ -40,12 +40,27 @@ Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 - Weight            : Menunjukkan berat laptop dalam kilogram, disimulasikan secara seragam antara 2,0 hingga 5,0 kg.
 - Price             : Mensimulasikan harga laptop berdasarkan hubungan linier dengan fitur-fiturnya, termasuk beberapa noise tambahan untuk meniru variasi dunia nyata.
 
+Fungsi describe() memberikan informasi statistik pada masing-masing kolom, antara lain:
+
+Count  adalah jumlah sampel pada data.
+Mean adalah nilai rata-rata.
+Std adalah standar deviasi.
+Min yaitu nilai minimum setiap kolom. 
+25% adalah kuartil pertama. Kuartil adalah nilai yang menandai batas interval dalam empat bagian sebaran yang sama. 
+50% adalah kuartil kedua, atau biasa juga disebut median (nilai tengah).
+75% adalah kuartil ketiga.
+Max adalah nilai maksimum.
+
 ### Missing Value dan Outliers
 Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.000 data dengan 7 fitur. Terdapat tiga jenis data dalam dataset ini, yaitu satu fitur bertipe objek, dua fitur bertipe integer (int64), dan empat fitur bertipe desimal atau float (float64). Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor.
 
 <img title="a title" alt="Alt text" src="/images/boo.svg">
 
 ### Univariate Analysis
+#### Categorical Features
+
+
+#### Categorical Features
 
 
 ### Multivariate Analysis
