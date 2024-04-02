@@ -42,6 +42,7 @@ Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset y
 
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
+Gambar 1
 </p>
 Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 
