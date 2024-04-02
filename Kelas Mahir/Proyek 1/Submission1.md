@@ -40,6 +40,8 @@ Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset y
 
 ### Deskripsi Variabel
 
+<img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
+
 Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 
 - Brand             : Mewakili merek laptop, dengan pilihan termasuk Dell, HP, Lenovo, Asus, dan Acer.
@@ -72,6 +74,7 @@ Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.00
 #### Categorical Features
 
 Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, fitur Brand ini memiliki sebaran data yang cukup merata berada di kisaran 20%.
+
 <img title="a title" alt="Alt text" src="/images/boo.svg">
 
 #### Numerical Features
