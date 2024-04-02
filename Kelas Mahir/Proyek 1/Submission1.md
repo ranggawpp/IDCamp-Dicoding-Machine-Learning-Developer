@@ -89,10 +89,10 @@ Model yang dibangun akan memiliki performa lebih baik dan bekerja lebih cepat ji
 
 ## Modeling
 Digunakan empat algoritma atau Model machine learning untuk menyelesaikan permasalahan di atas yaitu 
-### Linear Regression
-### KNeighbors Regressor
-### RandomForest Regressor
-### AdaBoost Regression.
+### - Linear Regression
+### - KNeighbors Regressor
+### - RandomForest Regressor
+### - AdaBoost Regression.
 
 Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nilai metrik evaluasi terbaik yang menunjukkan bahwa algoritma tersebut adalah yang terbaik.
 
