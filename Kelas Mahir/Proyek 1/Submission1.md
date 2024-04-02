@@ -58,12 +58,20 @@ Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.00
 
 ### Univariate Analysis
 #### Categorical Features
+Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, fitur Brand ini memiliki sebaran data yang cukup merata berada di kisaran 20%.
+<img title="a title" alt="Alt text" src="/images/boo.svg">
 
-
-#### Categorical Features
+#### Numerical Features
 
 
 ### Multivariate Analysis
+#### Categorical Features
+Dengan mengamati rata-rata harga relatif terhadap fitur kategori di atas, kita memperoleh insight sebagai berikut:
+
+Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 18000 hingga 20000. Sehingga, fitur Brand memiliki pengaruh atau dampak yang kecil terhadap rata-rata harga.
+<img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
+
+#### Numerical Features
 - Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
 
 ## Data Preparation
