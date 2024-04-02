@@ -42,10 +42,7 @@ Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset y
 
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
-</p>
-<p align='center'>
-Gambar 1
-</p>
+</p><p align='center'>Gambar 1</p>
 Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 
 - Brand             : Mewakili merek laptop, dengan pilihan termasuk Dell, HP, Lenovo, Asus, dan Acer.
