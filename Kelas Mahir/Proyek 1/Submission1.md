@@ -78,21 +78,21 @@ Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 1800
 ## Data Preparation
 Dalam Data preparation dilakukan beberapa langkah dan metode supaya model yang dibangun berjalan dengan baik yaitu,
 
-### One Hot Encoding
+- One Hot Encoding
 One hot encoding adalah teknik mengubah data kategorik menjadi data numerik dimana setiap kategori menjadi kolom baru dengan nilai 0 atau 1. Fitur yang akan diubah menjadi numerik pada proyek ini adalah Area Type, City, Furnishing Status, dan Tenant Preferred.
 
-### Train Test Split
+- Train Test Split
 Train test split aja proses membagi data menjadi data latih dan data validasi . Data train akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 3696 dibagi menjadi 3511 untuk data latih dan 185 untuk data validasi. Dengan rasio 95% data pada data train dan 5% pada data validasi.
 
-### Normalization
+- Normalization
 Model yang dibangun akan memiliki performa lebih baik dan bekerja lebih cepat jika dimodelkan dengan data seragam yang memiliki skala relatif sama. Salah satu teknik normalisasi yang digunakan pada proyek ini adalah Standarisasi dengan sklearn.preprocessing.StandardScaler.
 
 ## Modeling
 Digunakan empat algoritma atau Model machine learning untuk menyelesaikan permasalahan di atas yaitu 
-### - Linear Regression
-### - KNeighbors Regressor
-### - RandomForest Regressor
-### - AdaBoost Regression.
+- Linear Regression
+- KNeighbors Regressor
+- RandomForest Regressor
+- AdaBoost Regression.
 
 Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nilai metrik evaluasi terbaik yang menunjukkan bahwa algoritma tersebut adalah yang terbaik.
 
