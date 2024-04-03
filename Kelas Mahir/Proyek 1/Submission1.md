@@ -43,8 +43,10 @@ Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset y
 Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.000 data dengan 7 fitur. Terdapat tiga jenis data dalam dataset ini, yaitu satu fitur bertipe objek, dua fitur bertipe integer (int64), dan empat fitur bertipe desimal atau float (float64).
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 1.png">
-</p><p align='center'>Gambar 1</p>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
+
 Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 
 - Brand             : Mewakili merek laptop, dengan pilihan termasuk Dell, HP, Lenovo, Asus, dan Acer.
@@ -56,8 +58,9 @@ Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 - Price             : Mensimulasikan harga laptop berdasarkan hubungan linier dengan fitur-fiturnya, termasuk beberapa noise tambahan untuk meniru variasi dunia nyata.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 2.png">
-</p><p align='center'>Gambar 2</p>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
 
 Kemudian dengan menggunakan fungsi describe() kita dapatkan informasi statistik pada masing-masing fitur, antara lain:
 
@@ -75,8 +78,9 @@ Kemudian dengan menggunakan fungsi describe() kita dapatkan informasi statistik 
 Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor dan fitur lainnya.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
-</p><p align='center'>Gambar 1</p>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
 
 ### Univariate Analysis
 
@@ -85,7 +89,9 @@ Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outli
 Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, fitur Brand ini memiliki sebaran data yang cukup merata berada di kisaran 20%.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png"> <br> Gambar 1</p>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
 
 #### Numerical Features
 
@@ -102,8 +108,9 @@ Dengan mengamati rata-rata harga relatif terhadap fitur kategori di atas, kita m
 Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 18000 hingga 20000. Sehingga, fitur Brand memiliki pengaruh atau dampak yang kecil terhadap rata-rata harga.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
-</p><p align='center'>Gambar 1</p>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
 
 #### Numerical Features
 
