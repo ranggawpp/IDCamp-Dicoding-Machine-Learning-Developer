@@ -116,14 +116,14 @@ Dengan mengamati rata-rata harga relatif terhadap fitur kategori di atas, kita m
 Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 18000 hingga 20000. Sehingga, fitur Brand memiliki pengaruh atau dampak yang kecil terhadap rata-rata harga.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<img title="a title" alt="Alt text" src="./img/Gambar 6.png">
 <br> Gambar 1
 </p>
 
 #### Numerical Features
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<img title="a title" alt="Alt text" src="./img/Gambar 7.png">
 <br> Gambar 1
 </p>
 
@@ -155,7 +155,11 @@ Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nil
 
 ## Evaluation
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<img title="a title" alt="Alt text" src="./img/Gambar 8.png">
+<br> Gambar 1
+</p>
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 9.png">
 <br> Gambar 1
 </p>
 <p align='center'>
@@ -163,11 +167,7 @@ Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nil
 <br> Gambar 1
 </p>
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
-<br> Gambar 1
-</p>
-<p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<img title="a title" alt="Alt text" src="./img/Gambar 11.png">
 <br> Gambar 1
 </p>
 
@@ -178,7 +178,7 @@ Coefficient of Determination (R-squared or R2): The R2 value that approaching 1,
 
 ## Kesimpulan
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<img title="a title" alt="Alt text" src="./img/Gambar 12.png">
 <br> Gambar 1
 </p>
 
