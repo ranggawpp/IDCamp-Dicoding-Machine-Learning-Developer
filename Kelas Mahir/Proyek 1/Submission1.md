@@ -30,7 +30,7 @@ Untuk  menjawab pertanyaan tersebut, akan dikembangkan sebuah predictive modelli
 
 ### Solution statements
 
- Untuk mencapai goals diatas yaitu mendapatkan model terbaik untuk memprediksi harga, pengembangan model akan menggunakan beberapa algoritma machine learning yaitu K-Nearest Neighbor, Random Forest, AdaBoost, serta Linear Regression Algorithm. Dari keempat model ini, akan dipilih satu model yang memiliki nilai kesalahan prediksi terkecil. Dengan kata lain, kita akan membuat model seakurat mungkin, yaitu model dengan nilai kesalahan sekecil mungkin.
+Untuk mencapai goals diatas yaitu mendapatkan model terbaik untuk memprediksi harga, pengembangan model akan menggunakan beberapa algoritma machine learning yaitu K-Nearest Neighbor, Random Forest, AdaBoost, serta Linear Regression Algorithm. Dari keempat model ini, akan dipilih satu model yang memiliki nilai kesalahan prediksi terkecil. Dengan kata lain, kita akan membuat model seakurat mungkin.
 
 ## Data Understanding
 
@@ -40,8 +40,10 @@ Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset y
 
 ### Deskripsi Variabel
 
+Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.000 data dengan 7 fitur. Terdapat tiga jenis data dalam dataset ini, yaitu satu fitur bertipe objek, dua fitur bertipe integer (int64), dan empat fitur bertipe desimal atau float (float64).
+
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
+<img title="a title" alt="Alt text" src="./img/Gambar 1.png">
 </p><p align='center'>Gambar 1</p>
 Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 
@@ -53,9 +55,13 @@ Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 - Weight            : Menunjukkan berat laptop dalam kilogram, disimulasikan secara seragam antara 2,0 hingga 5,0 kg.
 - Price             : Mensimulasikan harga laptop berdasarkan hubungan linier dengan fitur-fiturnya, termasuk beberapa noise tambahan untuk meniru variasi dunia nyata.
 
-Fungsi describe() memberikan informasi statistik pada masing-masing kolom, antara lain:
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 2.png">
+</p><p align='center'>Gambar 2</p>
 
-Count  adalah jumlah sampel pada data.
+Kemudian dengan menggunakan fungsi describe() kita dapatkan informasi statistik pada masing-masing fitur, antara lain:
+
+Count adalah jumlah sampel pada data.
 Mean adalah nilai rata-rata.
 Std adalah standar deviasi.
 Min yaitu nilai minimum setiap kolom.
@@ -66,9 +72,11 @@ Max adalah nilai maksimum.
 
 ### Missing Value dan Outliers
 
-Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.000 data dengan 7 fitur. Terdapat tiga jenis data dalam dataset ini, yaitu satu fitur bertipe objek, dua fitur bertipe integer (int64), dan empat fitur bertipe desimal atau float (float64). Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor.
+Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor.
 
-<img title="a title" alt="Alt text" src="/images/boo.svg">
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
+</p><p align='center'>Gambar 1</p>
 
 ### Univariate Analysis
 
@@ -76,7 +84,9 @@ Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.00
 
 Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, fitur Brand ini memiliki sebaran data yang cukup merata berada di kisaran 20%.
 
-<img title="a title" alt="Alt text" src="/images/boo.svg">
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
+</p><p align='center'>Gambar 1</p>
 
 #### Numerical Features
 
@@ -88,7 +98,9 @@ Dengan mengamati rata-rata harga relatif terhadap fitur kategori di atas, kita m
 
 Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 18000 hingga 20000. Sehingga, fitur Brand memiliki pengaruh atau dampak yang kecil terhadap rata-rata harga.
 
+<p align='center'>
 <img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
+</p><p align='center'>Gambar 1</p>
 
 #### Numerical Features
 
