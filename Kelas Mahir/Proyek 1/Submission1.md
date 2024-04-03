@@ -43,7 +43,7 @@ Membuat model prediktif dengan machine learning tentu memerlukan data. Dataset y
 Data yang digunakan ini berformat CSV (Comma-Separated Values) dan memiliki 1.000 data dengan 7 fitur. Terdapat tiga jenis data dalam dataset ini, yaitu satu fitur bertipe objek, dua fitur bertipe integer (int64), dan empat fitur bertipe desimal atau float (float64).
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<img title="a title" alt="Alt text" src="./img/Gambar 1.png">
 <br> Gambar 1
 </p>
 
@@ -58,8 +58,8 @@ Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 - Price             : Mensimulasikan harga laptop berdasarkan hubungan linier dengan fitur-fiturnya, termasuk beberapa noise tambahan untuk meniru variasi dunia nyata.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
-<br> Gambar 1
+<img title="a title" alt="Alt text" src="./img/Gambar 2.png">
+<br> Gambar 2
 </p>
 
 Kemudian dengan menggunakan fungsi describe() kita dapatkan informasi statistik pada masing-masing fitur, antara lain:
@@ -78,25 +78,33 @@ Kemudian dengan menggunakan fungsi describe() kita dapatkan informasi statistik 
 Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor dan fitur lainnya.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
-<br> Gambar 1
+<img title="a title" alt="Alt text" src="./img/Gambar 3.png">
+<br> Gambar 3
 </p>
 
 ### Univariate Analysis
 
 #### Categorical Features
 
-Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, fitur Brand ini memiliki sebaran data yang cukup merata berada di kisaran 20%.
+Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, pada fitur Brand ini memiliki 5 kategori Brand dengan sebaran data yang cukup merata berada di kisaran 20%.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
-<br> Gambar 1
+<img title="a title" alt="Alt text" src="./img/Gambar 4.png">
+<br> Gambar 4
 </p>
 
 #### Numerical Features
 
-Pada Gambar 5 di atas, dapat kita lihat sebaran dari fitur numerik pada dataset ini yaitu:
-- 
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 5.png">
+<br> Gambar 5
+</p>
+
+Pada Gambar 5 di atas, melalui histogram dari setiap fitur tersebut kita dapatkan informasi sebagai berikut:
+- Pada fitur Processor Speed dapat dilihat data tersebar dari 1.5 hingga 4.0, dengan sebaran yang cukup variatif.
+- Pada fitur Screen Size dapat dilihat data tersebar dari 11 hingga 17, dengan sebaran yang cukup variatif.
+- Pada fitur Weight dapat dilihat data tersebar dari 2.0 hingga 5.0, dengan sebaran yang cukup variatif.
+
 
 
 ### Multivariate Analysis
@@ -113,6 +121,11 @@ Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 1800
 </p>
 
 #### Numerical Features
+
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
 
 - Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
 
@@ -141,6 +154,22 @@ Digunakan empat algoritma atau Model machine learning untuk menyelesaikan permas
 Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nilai metrik evaluasi terbaik yang menunjukkan bahwa algoritma tersebut adalah yang terbaik.
 
 ## Evaluation
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
 
 Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
 Mean Absolute Error (MAE): The MAE value indicates the average absolute difference between predicted and actual values. A smaller MAE suggests better model performance.
@@ -148,6 +177,11 @@ Mean Squared Error (MSE): The MSE is the average of the squared differences betw
 Coefficient of Determination (R-squared or R2): The R2 value that approaching 1, indicates that the model very effectively explains the variation in the data. A higher R2 value indicates better performance in explaining variability.
 
 ## Kesimpulan
+<p align='center'>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png">
+<br> Gambar 1
+</p>
 
 Based on the modeling that has been conducted, regression analysis has been successfully performed using a machine learning approach, where the features 'Processor_Speed' becomes the most influential feature on 'Price'.
 Considering all the evaluation metrics above, it can be concluded that linear regression model has excellent performance. This is supported by MAE, MAPE, MSE, RMSE, and R2 values that are very close to optimal. The model seems to be well-suited to the data used and capable of providing accurate predictions.
+
