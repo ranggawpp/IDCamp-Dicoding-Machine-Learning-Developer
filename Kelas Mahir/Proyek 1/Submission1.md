@@ -61,14 +61,14 @@ Variabel-variabel pada Laptop Price dataset adalah sebagai berikut:
 
 Kemudian dengan menggunakan fungsi describe() kita dapatkan informasi statistik pada masing-masing fitur, antara lain:
 
-Count adalah jumlah sampel pada data.
-Mean adalah nilai rata-rata.
-Std adalah standar deviasi.
-Min yaitu nilai minimum setiap kolom.
-25% adalah kuartil pertama. Kuartil adalah nilai yang menandai batas interval dalam empat bagian sebaran yang sama.
-50% adalah kuartil kedua, atau biasa juga disebut median (nilai tengah).
-75% adalah kuartil ketiga.
-Max adalah nilai maksimum.
+- Count adalah jumlah sampel pada data.
+- Mean adalah nilai rata-rata.
+- Std adalah standar deviasi.
+- Min yaitu nilai minimum setiap kolom.
+- 25% adalah kuartil pertama. Kuartil adalah nilai yang menandai batas interval dalam empat bagian sebaran yang sama.
+- 50% adalah kuartil kedua, atau biasa juga disebut median (nilai tengah).
+- 75% adalah kuartil ketiga.
+- Max adalah nilai maksimum.
 
 ### Missing Value dan Outliers
 
