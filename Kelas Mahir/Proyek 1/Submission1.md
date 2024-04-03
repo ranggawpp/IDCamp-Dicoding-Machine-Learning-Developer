@@ -117,14 +117,14 @@ Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 1800
 
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 6.png">
-<br> Gambar 1
+<br> Gambar 6
 </p>
 
 #### Numerical Features
 
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 7.png">
-<br> Gambar 1
+<br> Gambar 7
 </p>
 
 - Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
@@ -137,7 +137,7 @@ Dalam Data preparation dilakukan beberapa langkah dan metode supaya model yang d
 One hot encoding adalah teknik mengubah data kategorik menjadi data numerik dimana setiap kategori menjadi kolom baru dengan nilai 0 atau 1. Fitur yang akan diubah menjadi numerik pada proyek ini adalah Area Type, City, Furnishing Status, dan Tenant Preferred.
 
 - Train Test Split
-Train test split aja proses membagi data menjadi data latih dan data validasi . Data train akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 3696 dibagi menjadi 3511 untuk data latih dan 185 untuk data validasi. Dengan rasio 95% data pada data train dan 5% pada data validasi.
+Train test split aja proses membagi data menjadi data latih dan data validasi. Data train akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 3696 dibagi menjadi 3511 untuk data latih dan 185 untuk data validasi. Dengan rasio 95% data pada data train dan 5% pada data validasi.
 
 - Normalization
 Model yang dibangun akan memiliki performa lebih baik dan bekerja lebih cepat jika dimodelkan dengan data seragam yang memiliki skala relatif sama. Salah satu teknik normalisasi yang digunakan pada proyek ini adalah Standarisasi dengan sklearn.preprocessing.StandardScaler.
@@ -156,19 +156,19 @@ Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nil
 ## Evaluation
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 8.png">
-<br> Gambar 1
+<br> Gambar 8
 </p>
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 9.png">
-<br> Gambar 1
+<br> Gambar 9
 </p>
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 10.png">
-<br> Gambar 1
+<br> Gambar 10
 </p>
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 11.png">
-<br> Gambar 1
+<br> Gambar 11
 </p>
 
 Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
@@ -179,9 +179,8 @@ Coefficient of Determination (R-squared or R2): The R2 value that approaching 1,
 ## Kesimpulan
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 12.png">
-<br> Gambar 1
+<br> Gambar 12
 </p>
 
 Based on the modeling that has been conducted, regression analysis has been successfully performed using a machine learning approach, where the features 'Processor_Speed' becomes the most influential feature on 'Price'.
 Considering all the evaluation metrics above, it can be concluded that linear regression model has excellent performance. This is supported by MAE, MAPE, MSE, RMSE, and R2 values that are very close to optimal. The model seems to be well-suited to the data used and capable of providing accurate predictions.
-
