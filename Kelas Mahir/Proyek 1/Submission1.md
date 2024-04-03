@@ -72,7 +72,7 @@ Kemudian dengan menggunakan fungsi describe() kita dapatkan informasi statistik 
 
 ### Missing Value dan Outliers
 
-Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor.
+Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor dan fitur lainnya.
 
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
@@ -85,10 +85,13 @@ Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outli
 Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, fitur Brand ini memiliki sebaran data yang cukup merata berada di kisaran 20%.
 
 <p align='center'>
-<img title="a title" alt="Alt text" src="./img/Screenshot 2024-03-31 234416.png">
-</p><p align='center'>Gambar 1</p>
+<img title="a title" alt="Alt text" src="./img/Gambar 10.png"> <br> Gambar 1</p>
 
 #### Numerical Features
+
+Pada Gambar 5 di atas, dapat kita lihat sebaran dari fitur numerik pada dataset ini yaitu:
+- 
+
 
 ### Multivariate Analysis
 
