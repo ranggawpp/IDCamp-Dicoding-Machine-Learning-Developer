@@ -102,15 +102,15 @@ Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, pada fitur B
 
 Pada Gambar 5 di atas, melalui histogram dari setiap fitur tersebut kita dapatkan informasi sebagai berikut:
 - Pada fitur Processor Speed, Screen Size dan Weight dapat kita lihat sebaran datanya yang cukup variatif. Processor Speed tersebar antara 1.5 hingga 4.0, Screen Size tersebar dari 11 hingga 17, serta pada Weight data tersebar dari 2.0 hingga 5.0.
-- Pada fitur RAM Size dan Storage Capacity data terbagi 
+- Pada fitur RAM Size sebaran data terbagi menjadi RAM 4, 8, 16 dan 32. Data terbanyak berada pada RAM 32.
+- Pada fitur Storage capacity sebaran data terbagi menjadi 256, 512 dan 1000. Data terbanyak berada pada Storage Capacity 256.
+- Pada fitur Price dapat kita lihat harga laptop sangan dipengaruhi oleh storage capacity, harga laptop menjadi terbagi tiga rentang seperti pada storage capacity.
 
 ### Multivariate Analysis
 
 #### Categorical Features
 
-Dengan mengamati rata-rata harga relatif terhadap fitur kategori di atas, kita memperoleh insight sebagai berikut:
-
-Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 18000 hingga 20000. Sehingga, fitur Brand memiliki pengaruh atau dampak yang kecil terhadap rata-rata harga.
+Dengan mengamati rata-rata harga relatif terhadap fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 18000 hingga 20000. Sehingga, fitur Brand memiliki pengaruh atau dampak yang kecil terhadap rata-rata harga.
 
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 6.png">
@@ -128,13 +128,13 @@ Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 1800
 
 Dalam Data preparation dilakukan beberapa langkah dan metode supaya model yang dibangun berjalan dengan baik yaitu,
 
-- One Hot Encoding
+- Encoding Fitur Kategori
 <br>One hot encoding adalah teknik mengubah data kategorik menjadi data numerik dimana setiap kategori menjadi kolom baru dengan nilai 0 atau 1. Fitur yang akan diubah menjadi numerik pada proyek ini adalah Area Type, City, Furnishing Status, dan Tenant Preferred.
 
-- Train Test Split
+- Membagi Dataset
 <br>Train test split aja proses membagi data menjadi data latih dan data validasi. Data train akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 3696 dibagi menjadi 3511 untuk data latih dan 185 untuk data validasi. Dengan rasio 95% data pada data train dan 5% pada data validasi.
 
-- Normalization
+- Standarisasi
 <br>Model yang dibangun akan memiliki performa lebih baik dan bekerja lebih cepat jika dimodelkan dengan data seragam yang memiliki skala relatif sama. Salah satu teknik normalisasi yang digunakan pada proyek ini adalah Standarisasi dengan sklearn.preprocessing.StandardScaler.
 
 ## Modeling
@@ -142,13 +142,20 @@ Dalam Data preparation dilakukan beberapa langkah dan metode supaya model yang d
 Digunakan empat algoritma atau Model machine learning untuk menyelesaikan permasalahan di atas yaitu
 
 - Linear Regression
-<br>Linear Regression adalah salah 
+<br>Linear Regression adalah salah
+
 - KNeighbors Regressor
-<br>Linear Regression adalah salah 
+<br>KNN adalah algoritma yang relatif sederhana dibandingkan dengan algoritma lain. Algoritma KNN menggunakan ‘kesamaan fitur’ untuk memprediksi nilai dari setiap data yang baru. Dengan kata lain, setiap data baru diberi nilai berdasarkan seberapa mirip titik tersebut dalam set pelatihan.
+
+KNN bekerja dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k tetangga terdekat (dengan k adalah sebuah angka positif). Nah, itulah mengapa algoritma ini dinamakan K-nearest neighbor (sejumlah k tetangga terdekat). KNN bisa digunakan untuk kasus klasifikasi dan regresi.
+
 - RandomForest Regressor
-<br>Linear Regression adalah salah 
+<br>Algoritma random forest adalah salah satu algoritma supervised learning. Ia dapat digunakan untuk menyelesaikan masalah klasifikasi dan regresi. Random forest juga merupakan algoritma yang sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni.
+
+Random forest merupakan salah satu model machine learning yang termasuk ke dalam kategori ensemble (group) learning. Apa itu model ensemble? Sederhananya, ia merupakan model prediksi yang terdiri dari beberapa model dan bekerja secara bersama-sama. Ide dibalik model ensemble adalah sekelompok model yang bekerja bersama menyelesaikan masalah. Sehingga, tingkat keberhasilan akan lebih tinggi dibanding model yang bekerja sendirian. Pada model ensemble, setiap model harus membuat prediksi secara independen. Kemudian, prediksi dari setiap model ensemble ini digabungkan untuk membuat prediksi akhir.
+
 - AdaBoost Regression.
-<br>Linear Regression adalah salah 
+<br>Seperti namanya, boosting, algoritma ini bertujuan untuk meningkatkan performa atau akurasi prediksi. Caranya adalah dengan menggabungkan beberapa model sederhana dan dianggap lemah (weak learners) sehingga membentuk suatu model yang kuat (strong ensemble learner). Algoritma boosting muncul dari gagasan mengenai apakah algoritma yang sederhana seperti linear regression dan decision tree dapat dimodifikasi untuk dapat meningkatkan performa.
 
 Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nilai metrik evaluasi terbaik yang menunjukkan bahwa algoritma tersebut adalah yang terbaik.
 
