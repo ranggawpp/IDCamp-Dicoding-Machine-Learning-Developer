@@ -75,7 +75,7 @@ Kemudian dengan menggunakan fungsi describe() kita dapatkan informasi statistik 
 
 ### Missing Value dan Outliers
 
-Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numerik, seperti pada fitur kecepatan prosesor dan fitur lainnya.
+Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outlier pada fitur-fitur numeriknya, seperti pada fitur kecepatan prosesor dan fitur lainnya.
 
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 3.png">
@@ -86,7 +86,7 @@ Dataset ini tidak memiliki nilai hilang (missing value) dan tidak terdapat outli
 
 #### Categorical Features
 
-Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, pada fitur Brand ini memiliki 5 kategori Brand dengan sebaran data yang cukup merata berada di kisaran 20%.
+Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, pada fitur Brand ini terdapat 5 kategori Brand dengan sebaran data yang cukup merata berada di kisaran 20%.
 
 <p align='center'>
 <img title="a title" alt="Alt text" src="./img/Gambar 4.png">
@@ -101,11 +101,8 @@ Pada dataset ini terdapat satu fitur kategorikal yaitu fitur Brand, pada fitur B
 </p>
 
 Pada Gambar 5 di atas, melalui histogram dari setiap fitur tersebut kita dapatkan informasi sebagai berikut:
-- Pada fitur Processor Speed dapat dilihat data tersebar dari 1.5 hingga 4.0, dengan sebaran yang cukup variatif.
-- Pada fitur Screen Size dapat dilihat data tersebar dari 11 hingga 17, dengan sebaran yang cukup variatif.
-- Pada fitur Weight dapat dilihat data tersebar dari 2.0 hingga 5.0, dengan sebaran yang cukup variatif.
-
-
+- Pada fitur Processor Speed, Screen Size dan Weight dapat kita lihat sebaran datanya yang cukup variatif. Processor Speed tersebar antara 1.5 hingga 4.0, Screen Size tersebar dari 11 hingga 17, serta pada Weight data tersebar dari 2.0 hingga 5.0.
+- Pada fitur RAM Size dan Storage Capacity data terbagi 
 
 ### Multivariate Analysis
 
@@ -127,29 +124,31 @@ Pada fitur Brand, rata-rata harga cenderung mirip. Rentangnya berada antara 1800
 <br> Gambar 7
 </p>
 
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
-
 ## Data Preparation
 
 Dalam Data preparation dilakukan beberapa langkah dan metode supaya model yang dibangun berjalan dengan baik yaitu,
 
 - One Hot Encoding
-One hot encoding adalah teknik mengubah data kategorik menjadi data numerik dimana setiap kategori menjadi kolom baru dengan nilai 0 atau 1. Fitur yang akan diubah menjadi numerik pada proyek ini adalah Area Type, City, Furnishing Status, dan Tenant Preferred.
+<br>One hot encoding adalah teknik mengubah data kategorik menjadi data numerik dimana setiap kategori menjadi kolom baru dengan nilai 0 atau 1. Fitur yang akan diubah menjadi numerik pada proyek ini adalah Area Type, City, Furnishing Status, dan Tenant Preferred.
 
 - Train Test Split
-Train test split aja proses membagi data menjadi data latih dan data validasi. Data train akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 3696 dibagi menjadi 3511 untuk data latih dan 185 untuk data validasi. Dengan rasio 95% data pada data train dan 5% pada data validasi.
+<br>Train test split aja proses membagi data menjadi data latih dan data validasi. Data train akan digunakan untuk membangun model, sedangkan data uji akan digunakan untuk menguji performa model. Pada proyek ini dataset sebesar 3696 dibagi menjadi 3511 untuk data latih dan 185 untuk data validasi. Dengan rasio 95% data pada data train dan 5% pada data validasi.
 
 - Normalization
-Model yang dibangun akan memiliki performa lebih baik dan bekerja lebih cepat jika dimodelkan dengan data seragam yang memiliki skala relatif sama. Salah satu teknik normalisasi yang digunakan pada proyek ini adalah Standarisasi dengan sklearn.preprocessing.StandardScaler.
+<br>Model yang dibangun akan memiliki performa lebih baik dan bekerja lebih cepat jika dimodelkan dengan data seragam yang memiliki skala relatif sama. Salah satu teknik normalisasi yang digunakan pada proyek ini adalah Standarisasi dengan sklearn.preprocessing.StandardScaler.
 
 ## Modeling
 
 Digunakan empat algoritma atau Model machine learning untuk menyelesaikan permasalahan di atas yaitu
 
 - Linear Regression
+<br>Linear Regression adalah salah 
 - KNeighbors Regressor
+<br>Linear Regression adalah salah 
 - RandomForest Regressor
+<br>Linear Regression adalah salah 
 - AdaBoost Regression.
+<br>Linear Regression adalah salah 
 
 Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nilai metrik evaluasi terbaik yang menunjukkan bahwa algoritma tersebut adalah yang terbaik.
 
@@ -171,7 +170,6 @@ Dari keempat algoritma ini kemudian akan dipilih salah satu algoritma dengan nil
 <br> Gambar 11
 </p>
 
-Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
 Mean Absolute Error (MAE): The MAE value indicates the average absolute difference between predicted and actual values. A smaller MAE suggests better model performance.
 Mean Squared Error (MSE): The MSE is the average of the squared differences between predicted and actual values. A smaller MSE suggests the model is better at responding to data variability.
 Coefficient of Determination (R-squared or R2): The R2 value that approaching 1, indicates that the model very effectively explains the variation in the data. A higher R2 value indicates better performance in explaining variability.
